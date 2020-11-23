@@ -1,3 +1,5 @@
+package parkinglot;
+
 
 import java.util.Scanner;
 
@@ -25,17 +27,6 @@ public class ParkingLotTest {
             System.out.println("=============================Transaction : " + ++num + "=============================");
             System.out.println("Start(0)/n Car in(1) /n Car out(2)/n Shutdown(3)/n Reset(4)/n Restart(5)");
             input = sc.nextInt();
-            /*if (input == 0) {
-                System.out.print("Total Free Parking Number:");
-                tcar = sc.nextInt();
-                System.out.print("Now, Free Parking Number:");
-                fcar = sc.nextInt();
-
- 
-
-                // tcar = sc.nextInt(); //p.setTotalParking(sc.nextInt());
-                System.out.println("Total Free Parking Number:" + tcar + "/nNow, Free Parking Number:" + fcar);
-            }*/
 
             switch (input) {
                 case 0:
@@ -73,18 +64,4 @@ public class ParkingLotTest {
 
  
 
-/*Scanner sc = new Scanner(System.in);//declare varible named "sc" as Scanner data type for get data from keyboard   
-        //set total = 5 
-        ParkingLot p = new ParkingLot(5);
-        // test Car in = 2
-        p.countCarInSide(2);
-        // test Car out = 1
-        p.countCarOutSide(1);
-        //show freeparking
-        p.showFreePark();
-            System.out.println(p);
-    }
 
- 
-
-}*/
